@@ -30,5 +30,5 @@ multidbconn`
 DB Connectivity Verification
 ----------------------------
 Open below URLs in browser
-`http://localhost:8080/customer/` will connect customerdb
-`http://localhost:8080/product/` will connect productdb
+* `http://localhost:8080/customer/` will connect customerdb
+* `http://localhost:8080/product/` will connect productdb
