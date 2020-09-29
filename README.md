@@ -15,6 +15,8 @@ Getting Started
 ---------------
 This project uses the Maven build system and JAVA 8. You can create JAR using `mvn clean package`
 
+Database tables and records provided as `customerdb.sql` (DB1) and `productdb.sql` (DB2)
+
 Running on Docker
 -----------------
 Run below command for build and run the application on docker
@@ -24,3 +26,9 @@ Run below command for build and run the application on docker
 -p 8080:8080
 --name multiple-db-conn-app
 multidbconn`
+
+DB Connectivity Verification
+----------------------------
+Open below URLs in browser
+`http://localhost:8080/customer/` will connect customerdb
+`http://localhost:8080/product/` will connect productdb
