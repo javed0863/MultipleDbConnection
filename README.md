@@ -15,3 +15,12 @@ Getting Started
 ---------------
 This project uses the Maven build system and JAVA 8. You can create JAR using `mvn clean package`
 
+Running on Docker
+-----------------
+Run below command for build and run the application on docker
+
+`docker build -t multidbconn .
+&& docker run
+-p 8080:8080
+--name multiple-db-conn-app
+multidbconn`
