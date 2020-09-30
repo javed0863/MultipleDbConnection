@@ -16,8 +16,7 @@ public class CustomerServiceImpl implements CustomerService{
     @Override
     public List<Customer> findAll() {
         List<Customer> customers = customerRepository.findAll();
-        customers.stream()
-                .forEach(System.out::println);
+        customers.forEach(System.out::println);
         return customers;
     }
 }
