@@ -27,6 +27,13 @@ Run below command for build and run the application on docker
 --name multiple-db-conn-app
 multidbconn`
 
+Running on command Line
+-----------------------
+This is actually slightly faster on startup (depending on the size of the jar) than running from an unexploded archive. At runtime you shouldn’t expect any differences.
+
+* `$ jar -xf myapp.jar`
+* `$ java org.springframework.boot.loader.JarLauncher`
+
 DB Connectivity Verification
 ----------------------------
 Open below URLs in browser
