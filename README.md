@@ -31,7 +31,7 @@ Running on command Line
 -----------------------
 This is actually slightly faster on startup (depending on the size of the jar) than running from an unexploded archive. At runtime you shouldn’t expect any differences.
 
-* `$ jar -xf myapp.jar`
+* `$ jar -xf multiple-db-connection-0.0.1-SNAPSHOT.jar`
 * `$ java org.springframework.boot.loader.JarLauncher`
 
 DB Connectivity Verification
